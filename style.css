@@ -92,11 +92,18 @@
     font-weight: 600;
     text-transform: uppercase;
     background-color: #ffe1f9;
+    border-color: 2px solid #ffe1f9;
     color: #6a7cff;
     letter-spacing: 1px;
     cursor: pointer;
+    position: relative;
+    transition: 0.8s;
+    overflow: hidden;
 }
-
+.feature-btn:hover{
+    background-color: #6a7bffda;
+    color: #fff;
+}
 .feature-title {
     text-transform: capitalize;
     font-size: 70px;
@@ -115,12 +122,17 @@
     border: none;
     text-transform: capitalize;
     background-color: #6a7cff;
+    border-color: 2px solid #6a7cff;
     color: #fff;
     padding: 23px 38px;
     font-size: 19px;
     font-weight: 400;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.getting-started-btn:hover{
+    background-color: #6a7bffe3;
 }
 .page-slide{
     position: absolute;
