@@ -43,6 +43,7 @@
     background-color: #000;
     cursor: pointer;
     transition: .2s all ease;
+    outline: none;
 }
 
 .sign-in-btn:hover{
@@ -97,8 +98,9 @@
     letter-spacing: 1px;
     cursor: pointer;
     position: relative;
-    transition: 0.8s;
+    transition: 0.5s;
     overflow: hidden;
+    outline:none;
 }
 .feature-btn:hover{
     background-color: #6a7bffda;
@@ -129,10 +131,11 @@
     font-weight: 400;
     border-radius: 20px;
     cursor: pointer;
+    outline: none;
 }
 
 .getting-started-btn:hover{
-    background-color: #6a7bffe3;
+    background-color: #6a7bffcc;
 }
 .page-slide{
     position: absolute;
