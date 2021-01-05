@@ -66,10 +66,12 @@
     position: relative;
     padding:20px 40px;
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .col-2{
-    width:60%;
+    width:50%;
     margin-top: 20px;
 }
 
